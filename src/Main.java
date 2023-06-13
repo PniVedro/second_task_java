@@ -4,7 +4,7 @@ public class Main {
         int price = 1000;
         int bonus = price >= 1000 ? (price / 100) : 0;
         int result = cash + price + bonus;
-        System.out.println("Итоговая сумма: " + result);
+        System.out.println("Итоговая сумма: " + result + "\nКоличество бонусов: " + bonus);
 
 
         // Объявляете переменные для входных данных и
